@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /src/
+Disallow: /non-web/
+Disallow: /node_modules/
+Disallow: /cgi/

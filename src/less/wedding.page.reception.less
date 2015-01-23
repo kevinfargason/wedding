@@ -1,0 +1,55 @@
+.primary.page-reception{
+
+  .hero{
+    background-image: url('../img/full-ah-interior-soft-desktop.jpg');
+    background-position: center top;
+
+  }
+  .copy{
+    h1{
+      text-align: center;
+    }
+    p{
+      text-align: center;
+      font-size: 30px;
+    }
+    
+  }
+
+  //all mobile, landscape
+  @media(orientation: landscape) and (max-width: @ipad-landscape){
+    .hero{
+      background-image: url('../img/full-ah-interior-soft-mobile.jpg');
+    }
+    //iphone landscape
+    @media(max-width: @screen-sm){
+    }
+  }
+
+  //all mobile, portrait
+  @media(orientation: portrait) and (max-width: @screen-tablet){
+
+    .hero{
+      background-image: url('../img/full-ah-interior-soft-mobile.jpg');
+      background-position: center top;
+    }
+    .words{
+      margin-top: 90px;
+    }
+
+    .copy-space{
+      padding: 0;
+    }
+    //iphone
+    @media(max-width: @screen-xs){
+      background-size: 300%;
+      min-height: 800px;
+      .copy{
+        h1,p{
+          font-size: 22px;
+        }
+      }
+    }
+  }
+
+}

@@ -1,0 +1,36 @@
+*{
+  outline: 0 !important;
+  -webkit-font-smoothing: antialiased;
+    // :not(.clock) *{
+}
+
+.hero{
+     // -webkit-transform: translate3d(0,0,0);
+}
+html{
+  min-height: 100%;
+  body{
+      opacity: 1;
+  transition: opacity .3s ease-in;
+  }
+
+
+  &.no-js{
+    body{
+    opacity: 0;
+  }
+  }
+}
+
+body{
+  background-color: white;//#dbeaef;
+  min-height: 100%;
+}
+
+input[type='radio'], input[type='checkbox']{
+  cursor: pointer;
+}
+
+h4{
+  font-size: 20px;
+}

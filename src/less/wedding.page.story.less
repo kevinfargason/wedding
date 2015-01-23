@@ -1,0 +1,188 @@
+*{
+  -webkit-font-smoothing: antialiased;
+}
+
+.primary{
+  &.page-love-story{
+    @media(orientation: portrait) and (max-width: @screen-phone){
+      min-height: 600px;
+    }
+
+    //ALL MOBILE LANDSCAPE
+    @media(orientation: landscape) and (max-width: @ipad-landscape){
+      min-height: 1063px;
+      //iphone landscape
+      @media(max-width: @screen-sm){
+        min-height: 465px;
+      }
+    }
+
+    .page{
+
+      h1{
+        margin-top: 250px;
+        font-size: 100px;
+        text-transform: capitalize;
+        color: white;
+        position: relative;
+        letter-spacing: -1px;
+        @media(orientation: portrait){
+          letter-spacing: -2px;
+          margin-top: 190px;
+          text-align: center;
+          font-size: 60px;
+          padding-left: 20px;
+          @media(max-width: @screen-phone){
+            font-size: 35px;
+            margin-top: 142px;
+            padding-left: 0;
+          }
+
+        }
+
+      //ALL MOBILE LANDSCAPE
+      @media(orientation: landscape) and (max-width: @ipad-landscape){
+        margin-top: 190px;
+        background-position: -372px top;          
+        font-size: 70px;
+        letter-spacing: -3px;
+        margin-bottom: 20px;
+
+          //iphone landscape
+          @media(max-width: @screen-sm){
+            font-size: 54px;
+            margin-top: 100px;
+          }
+        }
+
+
+
+      }
+      button{
+        border: 2px solid white;//#3CA6C6;
+        border-radius: 12px; 
+        position: relative;
+        // background-color: rgba(255, 255, 255, 0.1);
+        background-color: rgba(60, 166, 198, .1);
+        color: #FFF;
+        font-size: 24px;
+        padding: 14px 30px;
+        .archer-medium();
+        text-transform: uppercase;
+        &:hover{
+          background-color: rgba(255, 255, 255, .8);
+          color: #3CA6C6;
+          // border-color: @blue;
+          // color: white;
+        }
+
+
+        @media(orientation: portrait){
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          position: relative;
+          left: 15px;
+          padding: 14px 20px;
+          @media(max-width: @screen-phone){
+            font-size: 18px;
+            left: 0;
+            padding: 6px 14px;
+            border-width: 1px;
+            border-radius: 8px;
+          }
+        }
+
+        //ALL MOBILE LANDSCAPE
+        @media(orientation: landscape) and (max-width: @ipad-landscape){
+
+        //iphone landscape
+        @media(max-width: @screen-sm){
+          margin-left: 40px;
+          padding: 5px 10px;
+        }
+      }
+    }
+  }
+  .hero{
+
+      //all mobile, landscape
+      @media(orientation: landscape) and (max-width: @ipad-landscape){
+        background-position: -372px top;
+
+          //iphone landscape
+          @media(max-width: @screen-sm){
+            background-size: 100% auto;
+            background-position: 0 48px;
+          }
+        }
+
+      //all mobile, portrait
+      @media(orientation: portrait) and (max-width: @screen-tablet){
+        background-size: 248% auto;
+        background-position: 91% 0;
+
+          //iphone
+          @media(max-width: @screen-xs){
+            background-position: 91% 37px;
+          }
+          // background-position: right 9% top 37px;
+        }
+
+
+//read the romance
+//See how it happened
+      // background-color: rgb(144,184,216);
+      // background-image: url('../img/culebra-story-large.jpg');
+      // background-position-x: right;
+
+      // //regular desktops and down
+      // @media(max-width: @screen-xl-desktop){
+      //   background-image: url('../img/culebra-story-desktop.jpg');
+      // }
+
+      // //tablets and down - portrait
+      // @media only screen and (max-width: @screen-tablet) and (orientation : portrait){
+      //   background-image: url('../img/culebra-story-mobile.jpg');
+      //   background-position-y: 35px;
+      // }
+      // //tablets and down - landscape
+      // @media only screen and (max-width: @screen-tablet) and (orientation : landscape){
+      //   background-position-y: 35px;
+      // }
+
+      // background-size: cover;
+      // background-position: right top;
+      // background-attachment: fixed;
+      // background-repeat: no-repeat;
+      // margin-top: 0;
+      // margin-right: -40px;
+
+    } 
+    .words{
+      // margin-top: 200px;
+      .copy-space{
+        padding: 30px 55px 30px 35px;
+        font-size: 18px;
+      }
+    }
+    .velum-paper{
+      opacity: .75;
+    }
+
+  }
+}
+
+@media(max-width: @screen-xl-desktop){
+
+}
+
+  //tablets and down - portrait
+  @media only screen and (max-width: @screen-tablet) and (orientation : portrait){
+
+
+  }
+  //tablets and down - landscape
+  @media only screen and (max-width: @screen-tablet) and (orientation : landscape){
+
+  }

@@ -1,0 +1,1419 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"n",
+				"nowrap"
+			],
+			[
+				"draw",
+				"drawVisualization"
+			],
+			[
+				"bef",
+				"before	Before"
+			],
+			[
+				"play",
+				"playByID"
+			],
+			[
+				"rgb",
+				"rgba(r,g,b,a)"
+			],
+			[
+				"rg",
+				"rgba(r,g,b,a)"
+			],
+			[
+				"FONT-S",
+				"font-size"
+			],
+			[
+				"background",
+				"background-attachment"
+			],
+			[
+				"back",
+				"background-size"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"backgrou",
+				"background-position"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"the",
+				"theForm"
+			],
+			[
+				"auto",
+				"autoprefixer"
+			],
+			[
+				"background-",
+				"background-size"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"background-t",
+				"background-repeat"
+			],
+			[
+				"border-r",
+				"border-radius"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"name",
+				"namespace"
+			],
+			[
+				"buil",
+				"build_dir"
+			],
+			[
+				"jo",
+				"jobTemplate"
+			],
+			[
+				"job",
+				"jobTemplate"
+			],
+			[
+				"l",
+				"loadJobTemplate"
+			],
+			[
+				"build",
+				"buildDetails"
+			],
+			[
+				"commit",
+				"commitMasterConfig"
+			],
+			[
+				"ar",
+				"arrCleanedNames"
+			],
+			[
+				"json",
+				"jsonAbbr"
+			],
+			[
+				"me",
+				"method	Attr"
+			],
+			[
+				"retu",
+				"returnMe"
+			],
+			[
+				"re",
+				"returnMe"
+			],
+			[
+				"heroC",
+				"heroCTAOriginalheight"
+			],
+			[
+				"D",
+				"DOMcache"
+			],
+			[
+				"hea",
+				"heroCTA"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"animation",
+				"animation-time"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"z-",
+				"z-index"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"ne",
+				"newHeight"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"list-style",
+				"list-style-type"
+			],
+			[
+				"form-",
+				"form-control-feedback"
+			],
+			[
+				"jobs",
+				"jobsToDelete"
+			],
+			[
+				"rsync",
+				"rsyncfiles"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"nav",
+				"navLinks"
+			],
+			[
+				"carou",
+				"carousel-control"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"table",
+				"tablesorter"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"serv",
+				"serviceForm"
+			],
+			[
+				"stringif",
+				"stringifiedForm"
+			],
+			[
+				"serialized",
+				"serializedForm"
+			],
+			[
+				"seri",
+				"serializedForm"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "page/content/the-wedding.php",
+			"settings":
+			{
+				"buffer_size": 1626,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/less/wedding-theme/modal.less",
+			"settings":
+			{
+				"buffer_size": 4336,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "api/RSVP.json",
+			"settings":
+			{
+				"buffer_size": 70811,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/less/wedding-theme/variables.less",
+			"settings":
+			{
+				"buffer_size": 21341,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Searching 62 files for \".close\"\n\n/Users/kevinfargason/_root/wedding/src/less/bs/alerts.less:\n   42  \n   43    // Adjust close link position\n   44:   .close {\n   45      position: relative;\n   46      top: -2px;\n\n/Users/kevinfargason/_root/wedding/src/less/bs/close.less:\n    4  \n    5  \n    6: .close {\n    7    float: right;\n    8    font-size: (@font-size-base * 1.5);\n\n/Users/kevinfargason/_root/wedding/src/less/bs/modals.less:\n   85  }\n   86  // Close icon\n   87: .modal-header .close {\n   88    margin-top: -2px;\n   89  }\n\n/Users/kevinfargason/_root/wedding/src/less/wedding-theme/modal.less:\n   28    }\n   29  \n   30:   .close{\n   31      position: absolute;\n   32      top: -10px;\n\n4 matches across 4 files\n",
+			"settings":
+			{
+				"buffer_size": 715,
+				"line_ending": "Unix",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "src/less/bs/close.less",
+			"settings":
+			{
+				"buffer_size": 683,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "page/content/overlays.php",
+			"settings":
+			{
+				"buffer_size": 2813,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 1843,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<!doctype html>\n<html class=\"no-js\">\n<head>\n\n  <meta charset=\"UTF-8\">\n\n  <?php include('./page/_include/head.php'); ?>\n  <!-- <link rel=\"prefetch\" href=\"http://davidwalsh.name/wp-content/themes/walshbook3/images/sprite.png\" /> -->\n</head>\n\n<body data-spy=\"scroll\" data-target=\"#primary-nav-container\">\n\n <?php include('./page/content/overlays.php'); ?>\n\n  <?php include('./page/_include/top-nav.php'); ?>\n\n  <section id=\"page-a-love-story\" class=\"page-love-story primary clearfix\">\n    <?php include('./page/content/a-love-story.php'); ?>\n  </section>\n\n  <section id=\"page-wedding\" class=\"page-wedding primary clearfix\">\n    <?php include('./page/content/the-wedding.php'); ?>\n  </section>\n\n  <section id=\"page-reception\" class=\"page-reception primary clearfix\">\n    <?php include('./page/content/the-reception.php'); ?>\n  </section>\n\n  <section id=\"page-traveling\" class=\"page-traveling primary clearfix\">\n    <?php include('./page/content/traveling.php'); ?>\n  </section>\n\n  <section id=\"page-RSVP\" class=\"page-RSVP primary clearfix\">\n    <?php include('./page/content/RSVP.php'); ?>\n  </section>\n\n  <section id=\"page-registry\" class=\"page-registry primary clearfix\">\n    <?php include('./page/content/registry.php'); ?>\n  </section>\n\n  <section id=\"page-social\" class=\"page-social primary clearfix\">\n    <?php include('./page/content/social.php'); ?>\n  </section>\n\n  <?php include('./page/_include/foot.php'); ?>\n\n\n</body>\n</html>",
+			"file": "index2.php",
+			"file_size": 1432,
+			"file_write_time": 130494199420000000,
+			"settings":
+			{
+				"buffer_size": 1433,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/less/wedding.page.wedding.less",
+			"settings":
+			{
+				"buffer_size": 1760,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 287.0,
+		"selected_items":
+		[
+			[
+				"prett",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"pretty",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"pret",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"tab",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"html",
+				"Set Syntax: HTML5"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"PRETTY",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"json",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"bros",
+				"Preferences: Browse Packages"
+			],
+			[
+				"sisde",
+				"Snippet: <aside>"
+			],
+			[
+				"javs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"mini",
+				"View: Toggle Minimap"
+			],
+			[
+				"rei",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"handl",
+				"Set Syntax: Handlebars"
+			],
+			[
+				"tabs",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"han",
+				"Set Syntax: Handlebars"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"REIN",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"hand",
+				"Set Syntax: Handlebars"
+			],
+			[
+				"ips",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"ipsum",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"toggle",
+				"View: Toggle Minimap"
+			],
+			[
+				"line",
+				"Sort Lines"
+			],
+			[
+				"jav",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"sid",
+				"View: Toggle Side Bar"
+			],
+			[
+				"bea",
+				"HTMLBeautify"
+			],
+			[
+				"syn",
+				"Set Syntax: HTML5"
+			],
+			[
+				"ht",
+				"HTMLBeautify"
+			],
+			[
+				"beau",
+				"HTMLBeautify"
+			],
+			[
+				"less",
+				"Set Syntax: LESS"
+			],
+			[
+				"ind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"syntax html",
+				"Set Syntax: HTML"
+			],
+			[
+				"reind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"spac",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"handle",
+				"Set Syntax: Handlebars"
+			],
+			[
+				"HTML",
+				"Set Syntax: HTML"
+			],
+			[
+				"space",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"syntax php",
+				"Set Syntax: PHP"
+			],
+			[
+				"in",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"spaces",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"packa",
+				"Preferences: Browse Packages"
+			],
+			[
+				"packag",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 476.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/kevinfargason/_root/wedding/page/_include/foot.php",
+		"/Users/kevinfargason/_root/wedding/stats.php",
+		"/Users/kevinfargason/_root/wedding/index.php",
+		"/Users/kevinfargason/_root/wedding/page/content/the-reception.php",
+		"/Users/kevinfargason/_root/wedding/src/less/wedding.page.traveling.less",
+		"/Users/kevinfargason/_root/wedding/src/less/wedding.page.reception.less",
+		"/Users/kevinfargason/_root/wedding/src/js/app/wedding.RSVP.js",
+		"/Users/kevinfargason/_root/wedding/page/_include/head.php",
+		"/Users/kevinfargason/_root/wedding/gruntfile.js",
+		"/Users/kevinfargason/_root/wedding/dist/js/handlebars.js",
+		"/Users/kevinfargason/_root/wedding/src/less/wedding.page.wedding.less",
+		"/Users/kevinfargason/_root/wedding/src/less/wedding.global.less",
+		"/Users/kevinfargason/_root/wedding/src/js/app/wedding.js",
+		"/Users/kevinfargason/_root/wedding/src/less/wedding-theme/navbar.less",
+		"/Users/kevinfargason/_root/wedding/page/content/the-wedding.php",
+		"/Users/kevinfargason/_root/wedding/src/js/handlebars/RSVPadult.hb",
+		"/Users/kevinfargason/_root/wedding/api/RSVP.json",
+		"/Users/kevinfargason/_root/wedding/dist/css/wedding.css",
+		"/Users/kevinfargason/_root/wedding/src/js/app/wedding.validation.js",
+		"/Users/kevinfargason/_root/wedding/src/js/app/wedding.admin.js",
+		"/Users/kevinfargason/_root/wedding/page/content/traveling.php",
+		"/Users/kevinfargason/_root/wedding/src/less/wedding.page.gifts.less",
+		"/Users/kevinfargason/_root/wedding/src/js/app/wedding.util.js",
+		"/Users/kevinfargason/_root/wedding/src/js/handlebars/RSVPchild.hb",
+		"/Users/kevinfargason/_root/wedding/.htaccess",
+		"/Users/kevinfargason/_root/wedding/api/api.php",
+		"/Users/kevinfargason/_root/wedding/src/less/wedding.page.RSVP.less",
+		"/Users/kevinfargason/_root/wedding/src/less/wedding-theme/forms.less",
+		"/Users/kevinfargason/_root/wedding/src/js/lib/jquery.js",
+		"/Users/kevinfargason/_root/wedding/admin.php",
+		"/Users/kevinfargason/_root/wedding/src/js/handlebars/oldie.hb",
+		"/Users/kevinfargason/_root/wedding/page/content/RSVP.php",
+		"/Users/kevinfargason/_root/wedding/src/js/lib/smoothScroll.js",
+		"/Users/kevinfargason/_root/wedding/src/less/wedding.scaffolding.less",
+		"/Users/kevinfargason/_root/wedding/src/less/wedding-theme/modal.less",
+		"/Users/kevinfargason/_root/wedding/tests/tests.js",
+		"/Users/kevinfargason/_root/wedding/src/js/wedding.util.js",
+		"/Users/kevinfargason/_root/wedding/src/less/wedding.less",
+		"/Users/kevinfargason/_root/wedding/src/less/oldie.less",
+		"/Users/kevinfargason/_root/wedding/src/js/wedding.RSVP.js",
+		"/Users/kevinfargason/_root/wedding/src/less/wedding.util.less",
+		"/Users/kevinfargason/_root/wedding/src/less/animations.less",
+		"/Users/kevinfargason/_root/wedding/src/js/wedding.js",
+		"/Users/kevinfargason/_root/wedding/dist/css/wedding.css.patch",
+		"/Users/kevinfargason/_root/wedding/src/js/wedding.validation.js",
+		"/Users/kevinfargason/_root/wedding/package.json",
+		"/Users/kevinfargason/_root/wedding/src/js/wedding.admin.js",
+		"/Users/kevinfargason/_root/wedding/page/content/registry.php",
+		"/Users/kevinfargason/_root/wedding/page/content/social.php",
+		"/Users/kevinfargason/_root/wedding/src/js/wedding.bootstrap.js",
+		"/Users/kevinfargason/_root/wedding/testrunner.html",
+		"/Users/kevinfargason/_root/wedding/page/content/a-love-story.php",
+		"/Users/kevinfargason/_root/wedding/tests/matrix.js",
+		"/Users/kevinfargason/_root/wedding/dist/js/wedding.js",
+		"/Users/kevinfargason/_root/wedding/dist/js/wedding.min.js",
+		"/Users/kevinfargason/_root/wedding/src/less/wedding-theme/variables.less",
+		"/Users/kevinfargason/_root/wedding/foot.php",
+		"/Users/kevinfargason/_root/wedding/src/less/wedding.page.story.less",
+		"/Users/kevinfargason/_root/wedding/src/less/bs/mixins.less",
+		"/Users/kevinfargason/_root/wedding/src/less/bs/navbar.less",
+		"/Users/kevinfargason/_root/wedding/src/js/lib/bs3.collapse.js",
+		"/Users/kevinfargason/_root/wedding/src/js/lib/bs3.transition.js",
+		"/Users/kevinfargason/_root/wedding/demo.html",
+		"/Users/kevinfargason/_root/wedding/src/js/lib/skrollr.js",
+		"/Users/kevinfargason/_root/dev6/src/js/ecommerce/ecommerce.js",
+		"/Users/kevinfargason/_root/wedding/src/less/bs/progress-bars.less",
+		"/Users/kevinfargason/_root/wedding/src/js/handlebars/adminRSVP.hb",
+		"/Users/kevinfargason/_root/wedding/src/less/wedding.admin.less",
+		"/Users/kevinfargason/_root/wedding/src/admin.php",
+		"/Users/kevinfargason/_root/wedding/page/_include/top-nav.php",
+		"/Users/kevinfargason/_root/wedding/page/content/gifts.php",
+		"/Users/kevinfargason/_root/wedding/robots.txt",
+		"/Users/kevinfargason/_root/wedding/src/less/wedding.page.social.less",
+		"/Users/kevinfargason/_root/wedding/api.php",
+		"/Users/kevinfargason/_root/wedding/RSVP_new.json",
+		"/Users/kevinfargason/_root/wedding/RSVP.json",
+		"/Users/kevinfargason/_root/wedding/RSVP.backup.json",
+		"/Users/kevinfargason/_root/wedding/src/js/handlebars.helpers.js",
+		"/Users/kevinfargason/_root/wedding/src/js/lib/jquery.validate.js",
+		"/Users/kevinfargason/_root/wedding/src/js/handlebars/RSVPcard.hb",
+		"/Users/kevinfargason/_root/dev1/sites/recycling-services/index.php",
+		"/Users/kevinfargason/_root/dev1/src/css/recycling-services/section.buildings.less",
+		"/Users/kevinfargason/_root/dev1/src/css/recycling-services/panoramic.less",
+		"/Users/kevinfargason/_root/prototypes/grunt/gruntfile.js",
+		"/Users/kevinfargason/_root/dev1/src/css/recycling-services.less",
+		"/Users/kevinfargason/_root/dev1/src/css/recycling-services/scaffolding.less",
+		"/Users/kevinfargason/_root/dev1/src/css/recycling-services/hero.less",
+		"/Users/kevinfargason/_root/dev1/src/js/recycling-services/recycle.js",
+		"/Users/kevinfargason/_root/prototypes/grunt/grunt.config",
+		"/Users/kevinfargason/_root/dev1/src/css/recycling-services/mixins.less",
+		"/Users/kevinfargason/_root/dev1/src/css/myaccount-extend.less",
+		"/Users/kevinfargason/_root/dev7/src/jsp/_master-config.jsp",
+		"/Users/kevinfargason/_root/dev5/src/css/ecommerce/ie.less",
+		"/Users/kevinfargason/_root/dev7/src/js/global/wm.events.js",
+		"/Users/kevinfargason/_root/dev7/src/js/ecommerce/ecommerce.js",
+		"/Users/kevinfargason/_root/dev7/src/js/myaccount/global-myaccount.js",
+		"/Users/kevinfargason/_root/dev6/src/js/myaccount/global-myaccount.js",
+		"/Users/kevinfargason/_root/dev6/src/jsp/include-tags-myaccount-foot.jsp",
+		"/Users/kevinfargason/_root/dev6/src/jsp/include-tags-myaccount-head.jsp",
+		"/Users/kevinfargason/_root/dev3/src/css/myaccount/preferences.less",
+		"/Users/kevinfargason/_root/dev3/src/css/ecommerce/left-nav.less",
+		"/Users/kevinfargason/_root/dev3/src/css/ecommerce.less",
+		"/Users/kevinfargason/_root/prototypes/belvedere-grunt/lib/belvedere.js",
+		"/Users/kevinfargason/_root/dev5/src/css/ecommerce/aside.less",
+		"/Users/kevinfargason/_root/wedding/src/js/lib/handlebars.js",
+		"/Users/kevinfargason/_root/wedding/src/less/heartbeat.less",
+		"/Users/kevinfargason/_root/wedding/dist/css/wedding.min.css",
+		"/Users/kevinfargason/_root/dev7/src/jsp/include-tags-myaccount-foot.jsp",
+		"/Users/kevinfargason/_root/dev7/src/jsp/include-tags-myaccount-head.jsp",
+		"/Users/kevinfargason/_root/dev7/src/js/ecommerce/ecommerce.analytics.config.js",
+		"/Users/kevinfargason/_root/dev7/src/js/global/omniture.config.js",
+		"/Users/kevinfargason/_root/dev7/src/js/ecommerce/ecommerce.events.analytics.js",
+		"/Users/kevinfargason/_root/dev7/src/js/global/omniture.plugins.js",
+		"/Users/kevinfargason/_root/dev7/src/js/ecommerce/ecommerce.analytics.plugins.js",
+		"/Users/kevinfargason/_root/dev1/src/css/recycling-services/section.recycling-center-locations.less",
+		"/Users/kevinfargason/_root/Jenkins/envInject.xml",
+		"/Users/kevinfargason/_root/prototypes/wm-reporting/lib/jst/render_error.jst",
+		"/Users/kevinfargason/_root/Jenkins/RSYNCLOG.txt",
+		"/Users/kevinfargason/_root/dev5/src/js/ecommerce/ecommerce.js",
+		"/Users/kevinfargason/_root/dev1/src/css/thinkgreen/countdown.less",
+		"/Users/kevinfargason/_root/dev1/src/css/tgmobile/countdown.less",
+		"/Users/kevinfargason/_root/dev5/src/handlebars/ecommerce/dumpsterDetailsPricing.hb",
+		"/Users/kevinfargason/_root/dev7/src/css/thinkgreen/countdown.less",
+		"/Users/kevinfargason/_root/dev7/src/css/tgmobile/countdown.less",
+		"/Users/kevinfargason/_root/prototypes/belvedere-grunt/config.tag.template.xml",
+		"/Users/kevinfargason/_root/prototypes/belvedere-grunt/config.template.xml",
+		"/Users/kevinfargason/_root/dev5/sites/ecommerce/page/curbsideProductDetails.html",
+		"/Users/kevinfargason/_root/wedding/src/less/bs/forms.less"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/kevinfargason/_root/wedding/src/less",
+			"/Users/kevinfargason/_root/wedding/",
+			"/Users/kevinfargason/_root/wedding/page",
+			"/Users/kevinfargason/_root/wedding",
+			"/Users/kevinfargason/_root/dev6/",
+			"/Users/kevinfargason/_root/dev6/src",
+			"/Users/kevinfargason/_root/wedding/src/less",
+			"/Users/kevinfargason/_root/wedding/src/",
+			"/Users/kevinfargason/_root/wedding/src/js",
+			"/Users/kevinfargason/_root/wedding/",
+			"/Users/kevinfargason/_root/wedding/src/",
+			"/Users/kevinfargason/_root/wedding/src/js",
+			"/Users/kevinfargason/_root/wedding/src/js/app",
+			"/Users/kevinfargason/_root/wedding/",
+			"/Users/kevinfargason/_root/wedding/src/",
+			"/Users/kevinfargason/_root/wedding/src/js",
+			"/Users/kevinfargason/_root/wedding/src/less",
+			"/Users/kevinfargason/_root/wedding/src/js",
+			"/Users/kevinfargason/_root/wedding/src/less",
+			"/Users/kevinfargason/_root/wedding/page",
+			"/Users/kevinfargason/_root/wedding/tests",
+			"/Users/kevinfargason/_root/wedding/src/js",
+			"/Users/kevinfargason/_root/wedding/",
+			"/Users/kevinfargason/_root/wedding/src/js",
+			"/Users/kevinfargason/_root/dev6/src",
+			"/Users/kevinfargason/_root/wedding",
+			"/Users/kevinfargason/_root/wedding/src/",
+			"/Users/kevinfargason/_root/wedding/src/less",
+			"/Users/kevinfargason/_root/wedding/src/js",
+			"/Users/kevinfargason/_root/wedding/src/less",
+			"/Users/kevinfargason/_root/wedding/src/css",
+			"/Users/kevinfargason/_root/wedding/src/js",
+			"/Users/kevinfargason/_root/dev6/src/js",
+			"/Users/kevinfargason/_root/wedding/src/less",
+			"/Users/kevinfargason/_root/wedding",
+			"/Users/kevinfargason/_root/dev7/src/js",
+			"/Users/kevinfargason/_root/dev1/src/css/recycling-services",
+			"/Users/kevinfargason/_root/dev1/src/css",
+			"/Users/kevinfargason/_root/wedding/src",
+			"/Users/kevinfargason/_root/dev7/src/js",
+			"/Users/kevinfargason/_root/dev7/src/css",
+			"/Users/kevinfargason/_root/prototypes/belvedere-grunt",
+			"/Users/kevinfargason/_root/dev6",
+			"/Users/kevinfargason/_root/lasheshouston",
+			"/Users/kevinfargason/_root/dev2/",
+			"/Users/kevinfargason/_root/dev2/src/",
+			"/Users/kevinfargason/_root/dev2/src/js",
+			"/Users/kevinfargason/_root/dev2/src/",
+			"/Users/kevinfargason/_root/dev2/src/js/",
+			"/Users/kevinfargason/_root/dev2/src/js/global",
+			"/Users/kevinfargason/_root/dev2/src/css/recycling-services",
+			"/Users/kevinfargason/_root/dev2/css/recycling-services",
+			"/Users/kevinfargason/_root/lasheshouston",
+			"/Users/kevinfargason/_root/lashes",
+			"/Users/kevinfargason/_root/dev2/src/js/recycling-services",
+			"/Users/kevinfargason/_root/dev2/src/",
+			"/Users/kevinfargason/_root/dev2/src/css",
+			"/Users/kevinfargason/_root/dev2/src/",
+			"/Users/kevinfargason/_root/dev2/src/css",
+			"/Users/kevinfargason/_root/dev2/src/js",
+			"/Users/kevinfargason/_root/dev6/src/js",
+			"/Users/kevinfargason/_root",
+			"/Users/kevinfargason/_root/dev6/src",
+			"/Users/kevinfargason/_root/dev6/src/js",
+			"/Users/kevinfargason/_root/dev6/src",
+			"/Users/kevinfargason/_root/dev2",
+			"/Users/kevinfargason/_root/lashes",
+			"/Users/kevinfargason/_root/dev6/src/js",
+			"/Users/kevinfargason/_root/pwdreset/src/less/",
+			"/Users/kevinfargason/_root/pwdreset/src/less/bs-theme",
+			"/Users/kevinfargason/_root/lashes",
+			"/Users/kevinfargason/_root/lahes",
+			"/Users/kevinfargason/_root/dev6/src/js",
+			"/Users/kevinfargason/_root/mobile-ebiz",
+			"/Users/kevinfargason/_root/pwdreset/src/less/bs-theme",
+			"/Users/kevinfargason/_root/dev6/src/js",
+			"/Users/kevinfargason/_root/pwdreset/src",
+			"/Users/kevinfargason/_root/pwdreset",
+			"/Users/kevinfargason/_root/dev6/src/css",
+			"/Users/kevinfargason/_root/dev6/src/js",
+			"/Users/kevinfargason/_root/dev7/src/js",
+			"/Users/kevinfargason/_root/dev6/src/js",
+			"/Users/kevinfargason/_root/dev7/src/js",
+			"/Users/kevinfargason/_root/dev6/src/js",
+			"/Users/kevinfargason/_root/dev7/src/js",
+			"/Users/kevinfargason/_root/lashes/page",
+			"/Users/kevinfargason/_root/lashes/",
+			"/Users/kevinfargason/_root/lashes/v3/src/less",
+			"/Users/kevinfargason/_root/lashes/v3/src",
+			"/Users/kevinfargason/_root/dev6/src/css",
+			"/Users/kevinfargason/_root/dev6",
+			"/Users/kevinfargason/_root/dev7-old/src/css",
+			"/Users/kevinfargason/_root/dev6/src/css",
+			"/Users/kevinfargason/_root/dev6/",
+			"/Users/kevinfargason/_root/dev6/src/css",
+			"/Users/kevinfargason/_root/prototypes/",
+			"/Users/kevinfargason/_root/prototypes/belvedere-grunt",
+			"/Users/kevinfargason/_root/dev6",
+			"/Users/kevinfargason/_root/dev6/src/css",
+			"/Users/kevinfargason/_root/myaccount-html",
+			"/Users/kevinfargason/_root/dev6/src/css",
+			"/Users/kevinfargason/_root/dev3/src/js",
+			"/Users/kevinfargason/_root/dev6/src/js",
+			"/Users/kevinfargason/_root/prototypes",
+			"/Users/kevinfargason/_root/dev6/src/",
+			"/Users/kevinfargason/_root/myaccount-2.0/src/less",
+			"/Users/kevinfargason/_root/dev6/src/css",
+			"/Users/kevinfargason/_root/lashes/v3/",
+			"/Users/kevinfargason/_root/lashes/v3/src",
+			"/Users/kevinfargason/_root/lashes/v3",
+			"/Users/kevinfargason/_root",
+			"/Users/kevinfargason/_root/teamsite",
+			"/Users/kevinfargason/_root/dev7/src/",
+			"/Users/kevinfargason/_root/dev7/src/js",
+			"/Users/kevinfargason/_root/dev7/",
+			"/Users/kevinfargason/_root/dev7/src/js/",
+			"/Users/kevinfargason/_root/dev6/src/js/",
+			"/Users/kevinfargason/_root/dev6/src/js/myaccount",
+			"/Users/kevinfargason/_root/dev7/src/js/myaccount",
+			"/Users/kevinfargason/_root/dev7/src/,/Users/kevinfargason/_root/myaccount-html",
+			"/Users/kevinfargason/_root/dev7/src/css,/Users/kevinfargason/_root/myaccount-html",
+			"/Users/kevinfargason/_root/dev3/src",
+			"/Users/kevinfargason/_root/dev7/src/css,/Users/kevinfargason/_root/myaccount-html",
+			"/Users/kevinfargason/_root/dev7/src/css",
+			"/Users/kevinfargason/_root/dev7/css",
+			"/Users/kevinfargason/_root/teamsite",
+			"/Users/kevinfargason/_root/dev7/src/css/myaccount/",
+			"/Users/kevinfargason/_root/dev6/src/css/myaccount/"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			".close",
+			"close",
+			"opacity",
+			"hover",
+			"modal-parking",
+			"jsapi",
+			"WM.console",
+			"WM.console(\"is promo exists",
+			"WM.console",
+			"handlebars",
+			"glyph-link",
+			"link-map",
+			".css",
+			"autoprefixer",
+			"uglify",
+			"wedding_min",
+			"triggerRSVPcode",
+			"\nhandleRSVPkeyup",
+			"handleRSVPkeyup",
+			"\"null\"",
+			"\"beef\"",
+			"\"ceremony+reception\"",
+			"\"ceremony\"",
+			"console",
+			"\"vegetarian\"",
+			"\"no\"",
+			"saveRSVP",
+			"validation",
+			".vegetarian",
+			"Handlebar",
+			"Handle",
+			"input-ceremony-reception-option",
+			"92C1",
+			"Oscar",
+			"\"beef\"",
+			"\"vegetarian\"",
+			"\"ceremony\"",
+			"\"no\"",
+			"\"fish\"",
+			"\"ceremony+reception\"",
+			"&",
+			"tel",
+			"&",
+			"aldo",
+			"input-ceremony-option",
+			"ceremony.",
+			"drawVisualization",
+			"draw",
+			"google.",
+			"      google.setOnLoadCallback(drawVisualization);",
+			"ceremony",
+			"famly",
+			"RSVP/",
+			"api.php",
+			"\"fish\"",
+			"8910",
+			"\"ceremony\": null,",
+			"response",
+			"attending",
+			"\"attending\": null,",
+			"food-selections",
+			"incomplete",
+			"food-selections",
+			"9A54",
+			"DC54",
+			"FC13",
+			"F613",
+			"your browser says",
+			"well this is",
+			"awkward",
+			"ua",
+			"click",
+			"data-scroll",
+			"initSmoothScroll",
+			"data-scroll",
+			"complete",
+			"friend",
+			"RSVPcards",
+			"bindRSVPcards",
+			"RSVPadult",
+			"fitText",
+			"h3",
+			"guest",
+			"Wedding-audio",
+			"shown.bs.modal",
+			"modal-open",
+			"modal",
+			"modal-opened",
+			"blur",
+			"AJAX DONE",
+			"handlebars",
+			"s/",
+			"ajax complete",
+			"0.5",
+			"scrollbar",
+			"webkit",
+			"webkit-transition",
+			"fadeIn",
+			"rsvp-loading",
+			"ms",
+			"webkit",
+			"-webkit-transition",
+			" MSTransitionEnd', function(e) {",
+			"msTransitionEnd",
+			"webkitTransitionEnd",
+			"RSVPchildren",
+			"primary\"",
+			"primary'",
+			"primary\"",
+			"class=\"strip\"",
+			"scroll",
+			".in",
+			"rsvp-code",
+			"></script>",
+			"wedding/",
+			"YARGIE",
+			"Yargie.U",
+			"255",
+			"march",
+			"mirror-code",
+			"awkward",
+			"records",
+			"awkward",
+			"return",
+			";\n    },",
+			";\n    ",
+			"function() {\n        return ",
+			"navigator.userAgent"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"class=\"strip clearfix\"",
+			"Wedding",
+			"client-reviews",
+			"about-us",
+			"//WM.Utils.optimizely()",
+			".editInPlace.init",
+			"search-drawer"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "page/content/the-wedding.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1626,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1478,
+								1478
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/less/wedding-theme/modal.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4336,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								494,
+								494
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "api/RSVP.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 70811,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								56043,
+								56043
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 49089.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/less/wedding-theme/variables.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 21341,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								20056,
+								20056
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": -0.0,
+						"translation.y": 12078.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 715,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										149,
+										155
+									],
+									[
+										294,
+										300
+									],
+									[
+										483,
+										489
+									],
+									[
+										627,
+										633
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								298,
+								298
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/less/bs/close.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 683,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								682,
+								74
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "page/content/overlays.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2813,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2646,
+								2646
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1843,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								352,
+								352
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "index2.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1433,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								352,
+								303
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "src/less/wedding.page.wedding.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1760,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								189,
+								189
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "wedding.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"rein",
+				"_root/Jenkins/envInject.xml"
+			],
+			[
+				"bp-add",
+				"eBusiness/bluepay/bp-add-new-card.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+		],
+		"width": 941.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 317.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

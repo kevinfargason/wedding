@@ -1,0 +1,218 @@
+
+.primary{
+  background-color: #dbeaef;
+
+  min-height: 1300px;
+  @media(orientation: portrait), (orientation: landscape){
+
+    @media( max-width: @screen-tablet){
+      min-height: 1050px;
+      
+    }
+  }
+
+  position: relative;
+  width:100%;
+  box-sizing:border-box;
+
+  article.page{
+  // position: absolute;
+  // top: 0;
+  // z-index: 1;
+}
+
+//all mobile
+@media(max-width: @ipad-landscape){
+  .tel{
+    text-decoration: underline;
+  }
+}
+
+.strip{
+  position: relative;
+  z-index: 10;
+  padding: 90px 0 50px;
+  background-color: #dbeaef;
+
+  @media(max-width: @screen-phone){
+    padding: 50px 0;
+    h1{
+      font-size: 60px;
+    }
+  }
+  h1{
+    text-align: center;
+      // font-family: "Penmanship";
+      font-family: "Feel Script";
+      // color: #999;
+      // letter-spacing: 25px;
+      // text-transform: uppercase;
+      // font-weight: bold;
+      padding: 0 20px;
+      font-size: 85px;
+      margin: 0;
+    }
+  }
+  .hero{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background:url('http://fargason.com/wedding/dist/img/culebra-story-desktop.jpg') no-repeat right top;
+    background-size: cover;
+    background-attachment: fixed;
+
+  // -webkit-transform: translate3d(0, 0, 0);
+
+  @media(max-width: @ipad-landscape){
+    background-size: auto;
+    background-size: cover;
+    background-attachment: initial;
+  }
+
+  @media(max-width: @screen-tablet){
+    background-size: auto;
+  }
+
+      //all mobile, landscape
+      @media(orientation: landscape) and (max-width: @ipad-landscape){
+        //iphone landscape
+        @media(max-width: @screen-sm){
+        }
+      }
+
+      //all mobile, portrait
+      @media(orientation: portrait) and (max-width: @screen-tablet){
+        //iphone
+        @media(max-width: @screen-xs){
+          background-size: 300%;
+          background-position: center top;
+        }
+      }
+    // height:100%;
+    // position:fixed;
+    // width:100%;
+    // z-index:-1;
+    // top:0;
+  }
+
+  .velum-paper{
+    opacity: .3;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    border-radius: 6px;
+    z-index: 9;
+  }
+
+  .words{
+    position: relative;
+    margin-top: 150px;
+    padding: 0;
+    background-color: rgba(255, 255, 255, 0.4);
+
+    .glyph-link{
+      a{
+        vertical-align: top;
+        white-space: nowrap;
+      }
+    }
+
+    .divide{
+      display: inline-block;
+      margin: 0 45px 0 30px;
+    }
+
+    @media(max-width: @screen-phone){
+      // .link-map{
+      //     float: left;
+      // }
+
+      // .link-directions{
+      //     float: right;
+      // }
+      .divide{
+        margin: 0 5px;
+        visibility: hidden;
+      }
+    }
+
+
+
+
+
+    &.invert{
+      background-color: rgba(0, 0, 0, 0.4);
+
+      .velum-paper{
+        background-color: black;
+      }
+      .copy{
+        color: white;
+      }
+    }
+    .copy-space{
+      padding: 30px 40px 30px 40px;
+
+    }
+
+    .copy{
+      background-color: transparent;    
+      padding: 0;
+      position: relative;
+      z-index: 10;
+      font-size: 20px;
+      line-height: 1.4;
+      h1{
+        margin: 0;
+        margin-bottom: 20px;
+      }
+      a{
+        color: white;
+      }
+    }
+  }
+
+  @media(max-width: @screen-xs-max){
+    .desktop-only{
+      display: none;
+    }
+  }
+  @media(min-width: @screen-sm){
+    .mobile-only{
+      display: none;
+    }
+  }
+
+  //regular desktop and down
+  @media(max-width: @screen-xl-desktop){
+
+  }
+
+  //tablets and down - portrait
+  @media only screen and (max-width: @screen-tablet) and (orientation : portrait){
+    .hero{
+      // box-sizing: content-box;
+    }
+    .words{
+      margin-top: 90px;
+      .velum-paper{
+        opacity: .75;
+      }
+      .copy{
+        font-size: 16px;
+        padding: 15px;
+        h1{
+          font-size: 42px;
+        }
+      }
+      .copy-space{
+        padding: 0;
+      }
+    }
+
+  }
+  //tablets and down - landscape
+  @media only screen and (max-width: @screen-tablet) and (orientation : landscape){
+
+  }
+}

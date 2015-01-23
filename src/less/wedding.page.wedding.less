@@ -1,0 +1,94 @@
+section.primary.page-wedding{
+
+  .hero{
+    background-image: url('../img/full-first-dallas.jpg');
+    background-position: center top;
+
+  }
+  .words{
+    &.invert{
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+  }
+  .copy{
+    p{
+      font-size: 30px;
+      &.glyph-link{
+        font-size: 27px;
+      }
+    }
+    .note{
+      font-size: 20px;
+    }
+  }
+
+    //all mobile, landscape
+    @media(orientation: landscape) and (max-width: @ipad-landscape){
+      .hero{
+        background-image: url('../img/full-first-dallas.jpg');
+      }
+
+      .copy{
+        p{
+          &.glyph-link{
+            font-size: 22px;
+            .divide{
+              margin: 0 10px 0 5px;
+            }
+          }
+        }
+      }
+      //iphone landscape
+      @media(max-width: @screen-sm){
+      }
+    }
+
+    //all mobile, portrait
+    @media(orientation: portrait) and (max-width: @screen-tablet){
+      .words{
+        margin-top: 90px;
+        text-align: center;
+      }
+      .hero{
+        background-image: url('../img/full-first-dallas.jpg');
+      }
+      .copy{
+        p{
+          &.glyph-link{
+             font-size: 23px;
+
+            .divide{
+              margin: 0 25px 0 10px;
+            }
+          }
+        }
+      }
+
+      //iphone
+      @media(max-width: @screen-xs){
+        min-height: 744px;
+        .copy{
+          h1,p{
+            font-size: 22px;
+          }
+                  p{
+          &.glyph-link{
+             font-size: 23px;
+            a{
+              display: block;
+              margin-bottom: 10px;
+            }
+            .divide{
+              display: none;
+              margin: 0 25px 0 10px;
+            }
+          }
+        }
+        }
+        .hero{
+        background-size: 330%;
+      }
+      }
+    }
+
+  }

@@ -1,0 +1,653 @@
+Index: dist/css/wedding.min.css
+===================================================================
+--- dist/css/wedding.min.css
++++ dist/css/wedding.min.css
+@@ -89,8 +89,9 @@
+ 
+ hr {
+   height: 0;
+   -moz-box-sizing: content-box;
++       -webkit-box-sizing: content-box;
+        box-sizing: content-box;
+ }
+ 
+ mark {
+@@ -191,8 +192,10 @@
+ 
+ input[type="checkbox"],
+ input[type="radio"] {
+   padding: 0;
++  -webkit-box-sizing: border-box;
++  -moz-box-sizing: border-box;
+   box-sizing: border-box;
+ }
+ 
+ input[type="search"] {
+@@ -227,8 +230,9 @@
+   * {
+     color: #000 !important;
+     text-shadow: none !important;
+     background: transparent !important;
++    -webkit-box-shadow: none !important;
+     box-shadow: none !important;
+   }
+   a,
+   a:visited {
+@@ -1728,9 +1732,9 @@
+   border: 1px solid #ffffff;
+   border-radius: 4px;
+   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+           box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
++  -webkit-transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+-  -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+           transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+ }
+ 
+ .form-control:focus {
+@@ -3248,8 +3252,9 @@
+   border: 1px solid rgba(0, 0, 0, 0.15);
+   border-radius: 4px;
+   -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+           box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
++  -webkit-background-clip: padding-box;
+   background-clip: padding-box;
+ }
+ 
+ .dropdown-menu.pull-right {
+@@ -4086,8 +4091,9 @@
+   padding-right: 15px;
+   padding-left: 15px;
+   overflow-x: visible;
+   border-top: 1px solid transparent;
++  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+   -webkit-overflow-scrolling: touch;
+ }
+ 
+@@ -4118,8 +4124,9 @@
+ @media (min-width: 768px) {
+   .navbar-collapse {
+     width: auto;
+     border-top: 0;
++    -webkit-box-shadow: none;
+     box-shadow: none;
+   }
+   .navbar-collapse.collapse {
+     display: block !important;
+@@ -4254,8 +4261,9 @@
+     width: auto;
+     margin-top: 0;
+     background-color: transparent;
+     border: 0;
++    -webkit-box-shadow: none;
+     box-shadow: none;
+   }
+   .navbar-nav .open .dropdown-menu > li > a,
+   .navbar-nav .open .dropdown-menu .dropdown-header {
+@@ -5098,26 +5106,8 @@
+     background-position: 0 0;
+   }
+ }
+ 
+-@-moz-keyframes progress-bar-stripes {
+-  from {
+-    background-position: 40px 0;
+-  }
+-  to {
+-    background-position: 0 0;
+-  }
+-}
+-
+-@-o-keyframes progress-bar-stripes {
+-  from {
+-    background-position: 0 0;
+-  }
+-  to {
+-    background-position: 40px 0;
+-  }
+-}
+-
+ @keyframes progress-bar-stripes {
+   from {
+     background-position: 40px 0;
+   }
+@@ -5152,18 +5142,16 @@
+ 
+ .progress-striped .progress-bar {
+   background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
+   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+-  background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
++  -webkit-background-size: 40px 40px;
+   background-size: 40px 40px;
+ }
+ 
+ .progress.active .progress-bar {
+   -webkit-animation: progress-bar-stripes 2s linear infinite;
+-     -moz-animation: progress-bar-stripes 2s linear infinite;
+       -ms-animation: progress-bar-stripes 2s linear infinite;
+-       -o-animation: progress-bar-stripes 2s linear infinite;
+           animation: progress-bar-stripes 2s linear infinite;
+ }
+ 
+ .progress-bar-success {
+@@ -5172,9 +5160,8 @@
+ 
+ .progress-striped .progress-bar-success {
+   background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
+   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+-  background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+ }
+ 
+ .progress-bar-info {
+@@ -5183,9 +5170,8 @@
+ 
+ .progress-striped .progress-bar-info {
+   background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
+   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+-  background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+ }
+ 
+ .progress-bar-warning {
+@@ -5194,9 +5180,8 @@
+ 
+ .progress-striped .progress-bar-warning {
+   background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
+   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+-  background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+ }
+ 
+ .progress-bar-danger {
+@@ -5205,9 +5190,8 @@
+ 
+ .progress-striped .progress-bar-danger {
+   background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
+   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+-  background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+ }
+ 
+ .media,
+@@ -5625,10 +5609,8 @@
+   -webkit-transform: translate(0, -25%);
+       -ms-transform: translate(0, -25%);
+           transform: translate(0, -25%);
+   -webkit-transition: -webkit-transform 0.3s ease-out;
+-     -moz-transition: -moz-transform 0.3s ease-out;
+-       -o-transition: -o-transform 0.3s ease-out;
+           transition: transform 0.3s ease-out;
+ }
+ 
+ .modal.in .modal-dialog {
+@@ -5653,8 +5635,9 @@
+   border-radius: 6px;
+   outline: none;
+   -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+           box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
++  -webkit-background-clip: padding-box;
+   background-clip: padding-box;
+ }
+ 
+ .modal-backdrop {
+@@ -5880,8 +5863,9 @@
+   border: 1px solid rgba(0, 0, 0, 0.2);
+   border-radius: 6px;
+   -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+           box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
++  -webkit-background-clip: padding-box;
+   background-clip: padding-box;
+ }
+ 
+ .popover.top {
+@@ -6081,9 +6065,10 @@
+ 
+ .carousel-control.left {
+   background-image: -webkit-gradient(linear, 0 top, 100% top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.0001)));
+   background-image: -webkit-linear-gradient(left, color-stop(rgba(0, 0, 0, 0.5) 0), color-stop(rgba(0, 0, 0, 0.0001) 100%));
++  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.0001)));
++  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5) 0, rgba(0, 0, 0, 0.0001) 100%);
+-  background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0.5) 0, rgba(0, 0, 0, 0.0001) 100%);
+   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0, rgba(0, 0, 0, 0.0001) 100%);
+   background-repeat: repeat-x;
+   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+ }
+@@ -6092,9 +6077,10 @@
+   right: 0;
+   left: auto;
+   background-image: -webkit-gradient(linear, 0 top, 100% top, from(rgba(0, 0, 0, 0.0001)), to(rgba(0, 0, 0, 0.5)));
+   background-image: -webkit-linear-gradient(left, color-stop(rgba(0, 0, 0, 0.0001) 0), color-stop(rgba(0, 0, 0, 0.5) 100%));
++  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, rgba(0, 0, 0, 0.0001)), to(rgba(0, 0, 0, 0.5)));
++  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.0001) 0, rgba(0, 0, 0, 0.5) 100%);
+-  background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0.0001) 0, rgba(0, 0, 0, 0.5) 100%);
+   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.0001) 0, rgba(0, 0, 0, 0.5) 100%);
+   background-repeat: repeat-x;
+   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+ }
+@@ -6902,8 +6888,9 @@
+ .modal-dialog {
+   height: 100%;
+   padding-top: 5px !important;
+   padding-bottom: 5px !important;
++  -webkit-transform: translate3d(0, 0, 0);
+   transform: translate3d(0, 0, 0);
+ }
+ 
+ @media (orientation: portrait), (orientation: landscape) {
+@@ -6972,8 +6959,10 @@
+   padding: 0 20px 0 10px;
+   margin: 0 60px;
+   overflow-y: auto;
+   line-height: 2em;
++  -webkit-box-sizing: border-box;
++  -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   -webkit-overflow-scrolling: touch;
+ }
+ 
+@@ -7085,8 +7074,9 @@
+ }
+ 
+ html body {
+   opacity: 1;
++  -webkit-transition: opacity 0.3s ease-in;
+   transition: opacity 0.3s ease-in;
+ }
+ 
+ html.no-js body {
+@@ -7108,30 +7098,56 @@
+ }
+ 
+ .fadeIn {
+   opacity: 1 !important;
++  -webkit-transition: opacity 0.5s ease-in-out;
+   transition: opacity 0.5s ease-in-out;
+ }
+ 
+ .fadeOut {
+   opacity: 0 !important;
++  -webkit-transition: opacity 0.5s ease-in-out;
+   transition: opacity 0.5s ease-in-out;
+ }
+ 
++@-webkit-keyframes stuff {
++  100% {
++    opacity: 0;
++  }
++}
++
+ @keyframes stuff {
+   100% {
+     opacity: 0;
+   }
+ }
+ 
++@-webkit-keyframes inputGlow {
++  0% {
++    -webkit-box-shadow: 0 0px 0px 0px rgba(0, 0, 0, 0.74);
++    box-shadow: 0 0px 0px 0px rgba(0, 0, 0, 0.74);
++  }
++  50% {
++    -webkit-box-shadow: 0 0px 11px 1px rgba(73, 155, 182, 0.74);
++    box-shadow: 0 0px 11px 1px rgba(73, 155, 182, 0.74);
++  }
++  100% {
++    -webkit-box-shadow: 0 0px 0px 0px rgba(0, 0, 0, 0.74);
++    box-shadow: 0 0px 0px 0px rgba(0, 0, 0, 0.74);
++  }
++}
++
+ @keyframes inputGlow {
+   0% {
++    -webkit-box-shadow: 0 0px 0px 0px rgba(0, 0, 0, 0.74);
+     box-shadow: 0 0px 0px 0px rgba(0, 0, 0, 0.74);
+   }
+   50% {
++    -webkit-box-shadow: 0 0px 11px 1px rgba(73, 155, 182, 0.74);
+     box-shadow: 0 0px 11px 1px rgba(73, 155, 182, 0.74);
+   }
+   100% {
++    -webkit-box-shadow: 0 0px 0px 0px rgba(0, 0, 0, 0.74);
+     box-shadow: 0 0px 0px 0px rgba(0, 0, 0, 0.74);
+   }
+ }
+ 
+@@ -7139,8 +7155,10 @@
+   position: relative;
+   width: 100%;
+   min-height: 1300px;
+   background-color: #dbeaef;
++  -webkit-box-sizing: border-box;
++  -moz-box-sizing: border-box;
+   box-sizing: border-box;
+ }
+ 
+ @media (orientation: portrait), (orientation: landscape) {
+@@ -7188,21 +7206,25 @@
+   width: 100%;
+   height: 100%;
+   background: url('http://fargason.com/wedding/dist/img/culebra-story-desktop.jpg') no-repeat right top;
+   background-attachment: fixed;
++  -webkit-background-size: cover;
+   background-size: cover;
+ }
+ 
+ @media (max-width: 1024px) {
+   .primary .hero {
+     background-attachment: initial;
++    -webkit-background-size: auto;
+     background-size: auto;
++    -webkit-background-size: cover;
+     background-size: cover;
+   }
+ }
+ 
+ @media (max-width: 768px) {
+   .primary .hero {
++    -webkit-background-size: auto;
+     background-size: auto;
+   }
+ }
+ 
+@@ -7220,8 +7242,9 @@
+ 
+ @media (orientation: portrait) and (max-width: 768px) and (max-width: 480px) {
+   .primary .hero {
+     background-position: center top;
++    -webkit-background-size: 300%;
+     background-size: 300%;
+   }
+ }
+ 
+@@ -7358,8 +7381,9 @@
+   margin-top: 4px;
+   margin-left: 5px;
+   font-size: 26px;
+   color: #999;
++  -webkit-transition: color 0.2s ease-in-out;
+   transition: color 0.2s ease-in-out;
+ }
+ 
+ section.primary.page-social article.page h2 span:hover {
+@@ -7385,8 +7409,9 @@
+ section.primary.page-RSVP .page .loading,
+ section.primary.page-RSVP .page .wrong-code {
+   text-align: center;
+   opacity: 0;
++  -webkit-transition: opacity 0.5s ease-in-out;
+   transition: opacity 0.5s ease-in-out;
+ }
+ 
+ section.primary.page-RSVP .page .loading {
+@@ -7422,8 +7447,9 @@
+   bottom: 0;
+   width: 100%;
+   height: 20px;
+   background: url('../img/shadow.png') no-repeat center bottom;
++  -webkit-background-size: 100%;
+   background-size: 100%;
+ }
+ 
+ section.primary.page-RSVP .page .friend {
+@@ -7434,8 +7460,9 @@
+   margin: 20px 20px 20px 20px;
+   text-align: left;
+   vertical-align: top;
+   opacity: 0;
++  -webkit-transition: height 1s ease-in-out, opacity 1s ease-in-out;
+   transition: height 1s ease-in-out, opacity 1s ease-in-out;
+ }
+ 
+ section.primary.page-RSVP .page .friend .border {
+@@ -7528,8 +7555,9 @@
+ section.primary.page-RSVP .page .event-selections {
+   display: none;
+   margin-left: 20px;
+   opacity: 0;
++  -webkit-transition: opacity 0.5s ease-in-out;
+   transition: opacity 0.5s ease-in-out;
+ }
+ 
+ section.primary.page-RSVP .page .RSVP-response {
+@@ -7566,8 +7594,9 @@
+   border-radius: 8px;
+ }
+ 
+ section.primary.page-RSVP .page form.RSVP-form input.code.glow {
++  -webkit-animation: inputGlow .8s linear infinite;
+   animation: inputGlow .8s linear infinite;
+ }
+ 
+ @media (max-width: 480px) {
+@@ -7649,8 +7678,9 @@
+     display: none;
+   }
+   section.primary.page-traveling .hero {
+     background-position: center top;
++    -webkit-background-size: auto 84%;
+     background-size: auto 84%;
+   }
+ }
+ 
+@@ -7670,8 +7700,9 @@
+     font-size: 20px;
+   }
+   section.primary.page-traveling .hero {
+     background-position: 62% top;
++    -webkit-background-size: 254%;
+     background-size: 254%;
+   }
+ }
+ 
+@@ -7680,8 +7711,9 @@
+     min-height: 900px;
+   }
+   section.primary.page-traveling .hero {
+     background-position: -380px top;
++    -webkit-background-size: 440%;
+     background-size: 440%;
+   }
+   section.primary.page-traveling .copy p {
+     font-size: 17px;
+@@ -7730,8 +7762,9 @@
+ 
+ @media (orientation: portrait) and (max-width: 768px) and (max-width: 480px) {
+   .primary.page-reception {
+     min-height: 800px;
++    -webkit-background-size: 300%;
+     background-size: 300%;
+   }
+   .primary.page-reception .copy h1,
+   .primary.page-reception .copy p {
+@@ -7811,8 +7844,9 @@
+     display: none;
+     margin: 0 25px 0 10px;
+   }
+   section.primary.page-wedding .hero {
++    -webkit-background-size: 330%;
+     background-size: 330%;
+   }
+ }
+ 
+@@ -7939,15 +7973,17 @@
+ 
+ @media (orientation: landscape) and (max-width: 1024px) and (max-width: 768px) {
+   .primary.page-love-story .hero {
+     background-position: 0 48px;
++    -webkit-background-size: 100% auto;
+     background-size: 100% auto;
+   }
+ }
+ 
+ @media (orientation: portrait) and (max-width: 768px) {
+   .primary.page-love-story .hero {
+     background-position: 91% 0;
++    -webkit-background-size: 248% auto;
+     background-size: 248% auto;
+   }
+ }
+ 
+@@ -8028,8 +8064,9 @@
+     margin-top: 90px;
+   }
+   section.primary.page-registry .hero {
+     background-position: 41% top;
++    -webkit-background-size: 195% auto;
+     background-size: 195% auto;
+   }
+   section.primary.page-registry .copy h1 {
+     font-size: 69px;
+@@ -8044,8 +8081,9 @@
+     min-height: 830px;
+   }
+   section.primary.page-registry .hero {
+     background-position: -600px top;
++    -webkit-background-size: 420%;
+     background-size: 420%;
+   }
+   section.primary.page-registry .copy p {
+     font-size: 20px;
+@@ -8058,9 +8096,11 @@
+ body.oldie {
+   color: white;
+   background: url('../img/crying-bride-3.jpg') no-repeat center top;
+   background-color: white;
++  -webkit-background-size: auto 100%;
+   background-size: auto 100%;
++  -webkit-background-size: cover;
+   background-size: cover;
+ }
+ 
+ body.oldie .vellum {
+@@ -8099,8 +8139,10 @@
+   list-style-type: none;
+ }
+ 
+ body.oldie .bg {
++  -webkit-box-sizing: border-box;
++  -moz-box-sizing: border-box;
+   box-sizing: border-box;
+ }
+ 
+ body.oldie h1 {
+@@ -8176,13 +8218,17 @@
+ .navbar-default {
+   background-color: transparent;
+   border-color: #EEE;
+   opacity: 1;
++  -webkit-transition: opacity .2s linear;
+   transition: opacity .2s linear;
++  -webkit-transition: -webkit-transform 0.2s ease-in-out;
+   transition: transform 0.2s ease-in-out;
+ }
+ 
+ .navbar-default.bye {
++  -webkit-transform: translateY(-75px);
++  -ms-transform: translateY(-75px);
+   transform: translateY(-75px);
+ }
+ 
+ .navbar-default .container {
+@@ -8401,22 +8447,11 @@
+ }
+ 
+ .fa-spin {
+   -webkit-animation: spin 2s infinite linear;
+-     -moz-animation: spin 2s infinite linear;
+-       -o-animation: spin 2s infinite linear;
+           animation: spin 2s infinite linear;
+ }
+ 
+-@-moz-keyframes spin {
+-  0% {
+-    -moz-transform: rotate(0deg);
+-  }
+-  100% {
+-    -moz-transform: rotate(359deg);
+-  }
+-}
+-
+ @-webkit-keyframes spin {
+   0% {
+     -webkit-transform: rotate(0deg);
+   }
+@@ -8424,17 +8459,8 @@
+     -webkit-transform: rotate(359deg);
+   }
+ }
+ 
+-@-o-keyframes spin {
+-  0% {
+-    -o-transform: rotate(0deg);
+-  }
+-  100% {
+-    -o-transform: rotate(359deg);
+-  }
+-}
+-
+ @-ms-keyframes spin {
+   0% {
+     -ms-transform: rotate(0deg);
+   }
+@@ -8444,57 +8470,49 @@
+ }
+ 
+ @keyframes spin {
+   0% {
++    -webkit-transform: rotate(0deg);
+     transform: rotate(0deg);
+   }
+   100% {
++    -webkit-transform: rotate(359deg);
+     transform: rotate(359deg);
+   }
+ }
+ 
+ .fa-rotate-90 {
+   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+   -webkit-transform: rotate(90deg);
+-     -moz-transform: rotate(90deg);
+       -ms-transform: rotate(90deg);
+-       -o-transform: rotate(90deg);
+           transform: rotate(90deg);
+ }
+ 
+ .fa-rotate-180 {
+   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+   -webkit-transform: rotate(180deg);
+-     -moz-transform: rotate(180deg);
+       -ms-transform: rotate(180deg);
+-       -o-transform: rotate(180deg);
+           transform: rotate(180deg);
+ }
+ 
+ .fa-rotate-270 {
+   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+   -webkit-transform: rotate(270deg);
+-     -moz-transform: rotate(270deg);
+       -ms-transform: rotate(270deg);
+-       -o-transform: rotate(270deg);
+           transform: rotate(270deg);
+ }
+ 
+ .fa-flip-horizontal {
+   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);
+   -webkit-transform: scale(-1, 1);
+-     -moz-transform: scale(-1, 1);
+       -ms-transform: scale(-1, 1);
+-       -o-transform: scale(-1, 1);
+           transform: scale(-1, 1);
+ }
+ 
+ .fa-flip-vertical {
+   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);
+   -webkit-transform: scale(1, -1);
+-     -moz-transform: scale(1, -1);
+       -ms-transform: scale(1, -1);
+-       -o-transform: scale(1, -1);
+           transform: scale(1, -1);
+ }
+ 
+ .fa-stack {

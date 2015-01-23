@@ -1,0 +1,88 @@
+@import 'fonts.less';
+@import 'wedding-theme/variables.less';
+@import 'wedding-theme/mixins.less';
+@import 'wedding-theme/modal.less';
+@import 'wedding.scaffolding.less';
+@import 'wedding.util.less';
+@import 'animations.less';
+
+@import 'wedding.global.less';
+
+@import 'wedding.page.social.less';
+@import 'wedding.page.RSVP.less';
+@import 'wedding.page.traveling.less';
+@import 'wedding.page.reception.less';
+@import 'wedding.page.wedding.less';
+@import 'wedding.page.story.less';
+@import 'wedding.page.gifts.less';
+@import 'oldie.less';
+@import 'wedding.admin.less';
+
+
+.mobile body {
+  overflow: hidden;
+}
+
+.mobile #wrapper {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.mobile #scroller {
+  height: 3000px;
+}
+
+@media(min-width: @screen-xxs){
+  .short{
+    display: none;
+  }  
+}
+
+@media(max-width: @screen-xxs){
+  .long{
+    display: none;
+  }
+}
+
+// #kevin-out{
+//   position: relative;
+//   width: 100%;
+//   height: 700px;
+//   .stuff{
+//     position: absolute;
+//     top: 0;
+//     z-index: 0;
+
+//   }
+// }
+
+// #kevin-in{
+//   background-image: url('../img/culebra-story-mobile.jpg');
+//   background-position: right;
+//   position: static;
+//   height: 100%;
+//   width: 100%;
+//   top: 0;
+//   z-index: -1;
+// }
+
+
+
+
+
+      //all mobile, landscape
+      @media(orientation: landscape) and (max-width: @ipad-landscape){
+        //iphone landscape
+        @media(max-width: @screen-sm){
+        }
+      }
+
+      //all mobile, portrait
+      @media(orientation: portrait) and (max-width: @screen-tablet){
+        //iphone
+        @media(max-width: @screen-xs){
+        }
+      }

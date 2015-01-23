@@ -1,0 +1,97 @@
+.navbar-default{
+  background-color: transparent;
+  border-color: #EEE;
+  transition: opacity .2s linear;
+  opacity: 1;
+
+  transition: transform .2s ease-in-out;
+  // position: absolute;
+
+    &.bye{
+      transform: translateY(-75px);
+    }
+
+  .container{
+    position: relative; 
+    z-index: 10;
+    @media(max-width: @screen-desktop){
+      max-width: 100%;
+    }
+  }
+
+  .navbar-collapse{
+    &.in, &.collapsing{
+      background: rgba(255, 255, 255, 0.95);
+    }
+  }
+
+  .navbar-nav {
+    @media(max-width: @screen-tablet){
+      // background: rgba(255,255,255,.95);
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+
+    > li > a {
+      color: @navbar-default-link-color;
+      @media (max-width: @screen-desktop) and (min-width: @screen-tablet){
+        padding-left: 7px;
+        padding-right: 7px;
+      }
+      @media(max-width: @screen-tablet){
+        text-align: center;
+      }
+        //tablets and down - landscape
+      @media only screen and (max-width: @screen-tablet) and (orientation : landscape){
+        padding-top: 5px;
+        padding-bottom: 6px;
+      }
+
+      &:hover,
+      &:focus {
+        color: @navbar-default-link-hover-color;
+        background-color: @navbar-default-link-hover-bg;
+      }
+    }
+    > .active > a {
+        .archer-medium();
+
+      &,
+      &:hover,
+      &:focus {
+        color: @navbar-default-link-active-color;
+        background-color: @navbar-default-link-active-bg;
+      }
+    }
+    > .disabled > a {
+      &,
+      &:hover,
+      &:focus {
+        color: @navbar-default-link-disabled-color;
+        background-color: @navbar-default-link-disabled-bg;
+      }
+    }
+  }
+
+  .velum-paper{
+    opacity: .95;
+    background-color: white;
+    width: 100%;
+    min-height: @navbar-height;
+    position: absolute;
+    z-index: 9;
+  }
+
+  .navbar-brand{
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #333;
+  }
+  .navbar-right{
+    text-transform: uppercase;
+    font-size: 15px;
+    @media (max-width: @screen-desktop) and (min-width: @screen-tablet){
+      font-size: 13px;
+    }
+  }
+}

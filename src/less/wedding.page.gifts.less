@@ -1,0 +1,86 @@
+section.primary.page-registry{
+
+  .hero{
+    background-image: url('../img/full-honeymoon.jpg');
+  }
+  .words{
+    background-color: rgba(255, 255, 255, 0.75);
+
+    .square{
+      margin-top: 40px;
+      text-align: center;
+      text-transform: uppercase;
+      .btn{
+        .archer-bold();
+        font-size: 16px !important;
+      }
+    }
+  }
+  h1{
+    font-size: 30px;
+  }
+  .copy{
+    p{
+      font-size: 20px;
+    }
+    h1{
+      text-align: center;
+      font-size: 58px;
+    }
+  }
+
+      //all mobile, landscape
+      @media(orientation: landscape) and (max-width: @ipad-landscape){
+        .copy{
+          h1{
+            font-size: 62px;
+          }
+        }
+        .copy-space{
+        padding: 20px 20px 40px 20px;
+      }
+        //iphone landscape
+        @media(max-width: @screen-sm){
+        }
+      }
+
+      //all mobile, portrait
+      @media(orientation: portrait) and (max-width: @screen-tablet){
+       .words{
+        margin-top: 90px;
+      }
+      .hero{
+        background-position: 41% top;
+        background-size: 195% auto;
+      }
+      .copy{
+        h1{
+          font-size: 69px;
+        }
+      }
+
+      .copy-space{
+        padding: 0 0 20px 0;
+      }
+        //iphone
+        @media(max-width: @screen-xs){
+         min-height: 830px;
+
+          // min-height: 600px;
+          .hero{
+            background-position: -600px top;
+            background-size: 420%;
+          }
+
+          .copy{
+            p{
+              font-size: 20px;
+            }
+            h1{
+              font-size: 29px;
+            }
+          }
+        }
+      }
+
+    }

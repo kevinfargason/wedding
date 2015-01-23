@@ -1,0 +1,248 @@
+@transition-speed: .5s;
+
+section.primary.page-RSVP{
+  min-height: 1100px;
+  background-color: white;
+  padding-bottom: 150px;
+  transiton: height .5s ease-in-out;
+  .container{
+    transiton: height .5s ease-in-out;
+  }
+
+  .page{
+    // height: 100%;
+    color: #999;
+
+    .loading, .wrong-code{
+      opacity: 0;
+      text-align: center;
+      transition: opacity @transition-speed ease-in-out;
+    }
+
+    .loading{
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+
+    .wrong-code{
+      color: #B65959;
+    }
+
+    .RSVPcards, .RSVPchildren{
+      text-align: center;
+      display: none;
+    }
+
+    .children-info{
+      display: none;
+      opacity: 0;
+      p{
+        margin: 30px 100px;
+      }
+    }
+    .stranger{
+      opacity: 1;
+    }
+    .card-shadow{
+      background: url('../img/shadow.png') no-repeat center bottom;
+      background-size: 100%;
+      height: 20px;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+    }
+    .friend {
+      opacity: 0;
+      transition: height 1s ease-in-out, opacity 1s ease-in-out;
+      min-height: 180px;
+      margin: 20px 20px 20px 20px;
+      width: 500px;
+      display: inline-block;
+      text-align: left;
+      vertical-align: top;
+      position: relative;
+      
+
+      .border{
+        width: 100%;
+        padding: 20px 20px 40px 40px;
+        border: solid #DDD;
+        border-top-width: 1px;
+        border-left-width: 1px;
+        border-right-width: 1px;
+        border-bottom: none;
+        min-height: 180px;
+      }
+      
+      h3.guest{
+        text-transform: capitalize;
+        font-family: "Penmanship";
+        font-weight: bold;
+      }
+
+      section.complete{
+        opacity: 0;
+        display: none;
+
+        &.accepted{
+          .declined{
+            display: none;
+          }
+        }
+
+        &.declined{
+          .declined{
+            margin-top: 30px;
+          }
+          .accepted{
+            display: none;
+          }
+        }
+
+        &.beef{
+          .fish, .vegetarian{
+            display: none;
+          }
+        }
+        &.fish{
+          .beef, .vegetarian{
+            display: none;
+          }
+        }
+        &.vegetarian{
+          .beef, .fish{
+            display: none;
+          }
+        }
+        .RSVP-modify{
+          position: absolute;
+          top: 10px;
+          right: 10px;
+          a{
+            color: #CCC;
+            text-decoration: none;
+            cursor: pointer;
+          }
+          a:hover{
+            color: #999;
+          }
+          span.glpyphicon{
+            color: #DDD;
+          }
+        }
+        h3{
+          font-size: 28px;
+          .glyphicon{
+            color: #DBEAEF;
+          } 
+        }
+        p{
+          margin-top: 10px;
+          margin-bottom: 10px;
+        }
+        .guest{
+          text-transform: capitalize;
+        }
+      }
+
+    } //end .friend
+
+
+    .food-selections, .event-selections{
+      margin-left: 20px;
+      opacity: 0;
+      transition: opacity @transition-speed ease-in-out;
+      display: none;
+      // height: 125px;
+    }
+    .RSVP-response{
+      font-size: 22px;
+      line-height: 1;
+    }
+    h1{
+      text-align: center;
+      margin-bottom: 50px;
+      margin-top: 100px;
+      .archer-light();
+      font-size: 60px;
+    }
+    p{
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    form.RSVP-form{
+      text-align: center;
+      input.code{
+        &.glow{
+          // box-shadow: 0px 0px 11px 1px rgba(73, 155, 182, 0.74);
+          //##CHANGED
+          animation: inputGlow .8s linear infinite;
+        }
+        text-transform: uppercase;
+        height: 67px;
+        border-radius: 8px;
+        font-size: 35px;
+        width: 115px;
+        line-height: 1;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+  }
+
+  @media(max-width: @screen-xs){
+    .page{
+      .friend {
+        width: 100%;
+        margin: 20px 0;
+        .border{
+          padding: 15px;
+          .complete{
+            h3{
+              text-align: center;
+              margin-right: 20px;
+            }
+          }
+        }
+        label{
+          font-size: 19px;
+        }
+      }
+      .food-selections{
+        height: auto;
+      }
+      .RSVPchildren{
+        p{
+          margin: 0;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+
+  //all mobile, landscape
+  @media(orientation: landscape) and (max-width: @ipad-landscape){
+      //iphone landscape
+      @media(max-width: @screen-sm){
+      }
+    }
+
+  //all mobile, portrait
+  @media(orientation: portrait) and (max-width: @screen-tablet){
+      //iphone
+      @media(max-width: @screen-xs){
+        min-height: 900px;
+
+        .page{
+          p{
+            font-size: 20px;
+          }
+          h1{
+            font-size: 29px;
+          }
+        }
+      }
+    }
+
+  }
